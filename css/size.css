@@ -1,0 +1,81 @@
+.size__holder {
+	max-width: 885px;
+	width: 100%;
+	max-height: 80vh;
+	background-color: #fff;
+	border-radius: 17px;
+	padding: 21px 45px;
+	padding-bottom: 50px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.size__title {
+	font-size: 18px;
+	line-height: 1.2;
+	color: #262832;
+	text-align: center;
+	padding-bottom: 15px;
+	font-weight: 700;
+}
+
+.size__block {
+	border: 1px solid #e4e8ee;
+	border-radius: 17px;
+}
+
+.size__block table {
+	width: 100%;
+}
+
+.size__block table th,
+.size__block table td {
+	width: 20%;
+	font-size: 13px;
+	line-height: 1.2;
+	color: #262832;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+.size__block table th {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.size__block table tbody tr:not(:last-child) {
+	border-bottom: 1px solid #e4e8ee;
+}
+
+.size__block table thead tr th:not(:last-child),
+.size__block table thead tr td:not(:last-child),
+.size__block table tbody tr th:not(:last-child),
+.size__block table tbody tr td:not(:last-child) {
+	border-right: 1px solid #e4e8ee;
+}
+
+.size__block table thead tr th {
+	border-bottom: 1px solid #e4e8ee;
+}
+
+.size__block table tbody tr:not(:last-child) td {
+	border-bottom: 1px solid #e4e8ee;
+}
+
+@media screen and (max-width: 767px) {
+
+.size__holder {
+	padding: 0px;
+	padding-top: 21px;
+}
+
+.size__wrap-elem {
+	margin-right: 15px;
+}
+
+.size__block {
+	border-radius: 0 0 17px 17px;
+}
+
+}
+
